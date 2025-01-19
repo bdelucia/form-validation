@@ -2,7 +2,7 @@
   margin: 0;
 }
 body {
-  font-family: "Inter";
+  font-family: 'Inter';
 }
 
 form {
@@ -25,10 +25,14 @@ input {
   border-radius: 4px;
 }
 
+input {
+  padding: 4px;
+}
+
 input:invalid {
-  border: 1px solid red;
+  border: 2px solid red;
 }
 
 input:valid {
-  border: 1px solid green;
+  border: 2px solid green;
 }
